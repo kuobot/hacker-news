@@ -3,12 +3,12 @@ var submitButton;
  var database;
 
   var config = {
-    apiKey: "AIzaSyAEzIYEx0PPqrUcCco8zGqUf3rY8smarCg",
-    authDomain: "hacker-news-bc2b5.firebaseapp.com",
-    databaseURL: "https://hacker-news-bc2b5.firebaseio.com",
-    projectId: "hacker-news-bc2b5",
-    storageBucket: "hacker-news-bc2b5.appspot.com",
-    messagingSenderId: "695856278625"
+    apiKey: {API-KEY},
+    authDomain: {AUTH-DOMAIN},
+    databaseURL: [DATABASE-URL],
+    projectId: [PROJECT-ID],
+    storageBucket: [STORAGE-BUCKET],
+    messagingSenderId: {ID}
   };
 
  firebase.initializeApp(config);
